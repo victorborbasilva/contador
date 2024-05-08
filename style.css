@@ -59,8 +59,16 @@ body {
 
 .botoes {
     display: block;
-
 }
+
+    .botao:first-child {
+        border-radius: 40px 40px 0 0;
+    }
+
+    .botao:last-child {
+        border-radius: 0 0 40px 40px;
+    }
+
 
 @media screen and (min-width: 768px) {
     .botoes {
